@@ -154,7 +154,7 @@
     unsigned PreCommutationState :  1;
     unsigned PotRead :  1;
     unsigned DMCI_Control_SW: 1;
-    unsigned current_state:	  3;
+    signed current_state:	  3;
     unsigned unused :   6;
 } TFlags;
  TFlags Flags;
