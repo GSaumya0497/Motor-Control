@@ -157,7 +157,7 @@
     unsigned current_state:	  3;
     unsigned unused :   6;
 } TFlags;
-extern TFlags Flags;
+ TFlags Flags;
 
 //############## Clockwise and Counter-Clockwise rotation constants, majority detection filter, etc ####################
 
