@@ -162,8 +162,8 @@
 //############## Clockwise and Counter-Clockwise rotation constants, majority detection filter, etc ####################
 
 /*override values for each sector*/
-extern const uint32_t PWM_STATE_CLKW[6];
-extern uint32_t PWM_STATE[6];
+const uint32_t PWM_STATE_CLKW[6];
+ uint32_t PWM_STATE[6];
 
 /*ADC Channel AN Select*/
 extern const uint16_t ADC_CHANNEL_CLKW[6];
